@@ -1,0 +1,9 @@
+<p>Eventos do components</p>
+
+<div *ngFor="let evento of eventos">
+  <p><b>Tema:</b>{{ evento.tema }}</p>
+  <p><b>Local:</b>{{ evento.local }}</p>
+  <hr>
+</div>
+
+{{ eventos | json }}
